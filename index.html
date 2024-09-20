@@ -16,12 +16,17 @@
       <div class="">
         <a href="/">Doughnut</a>
       </div>
+      
       <ul>
         <a href="https://github.com/JabulaniUsen/Spinning-doughnut" target="_blank" rel="noopener noreferrer"><li>Github</li></a>
         <a href="https://usen-obong.vercel.app/" target="_blank" rel="noopener noreferrer"><li>Creator</li></a>
       </ul>
     </nav> 
     <h1 class="title">Spin the doughnut</h1>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx"></script><script>
+      function toggleMenu() {
+        document.querySelector("nav").classList.toggle("menu-opened");
+      }
+    </script>
   </body>
 </html>

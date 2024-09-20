@@ -24,6 +24,7 @@ nav {
     padding: 4rem 8rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
@@ -47,3 +48,26 @@ nav ul {
     top: 25%;
     transform: translate(-50%, -75%);
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    nav {
+        padding: 2rem 4rem;
+    }
+    nav ul {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 2rem;
+    }
+    nav ul {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 1rem 2rem;
+        /* display: none; */
+    }
+
+}
+
